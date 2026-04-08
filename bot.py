@@ -487,7 +487,14 @@ async def handle_question(message: types.Message, state: FSMContext):
             data = await state.get_data()
             update_stats(user_id, "got_hr_contact")
             await notify_hr_contact(user_id, message.from_user.username or "no", f"{data.get('city','')}, {data.get('hours','')}")
-            await message.answer("🎉 **Отлично!**\n\n📞 @work_place_group\nНапишите «Трудоустройство»", reply_markup=ReplyKeyboardRemove())
+            await message.answer(
+                "🎉 **Отлично! Вы прошли первичный отбор.**\n\n"
+                "Для дальнейшего трудоустройства свяжитесь с отделом кадров:\n\n"
+                "📞 **@work_place_group**\n\n"
+                "Напишите им слово **«Трудоустройство»**.\n\n"
+                "👋 Всего доброго и удачи в работе!",
+                reply_markup=ReplyKeyboardRemove()
+            )
             await state.clear()
         elif text == "❓ Есть вопросы":
             update_stats(user_id, "asked_question")
