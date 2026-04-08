@@ -171,7 +171,7 @@ async def admin_users_callback(callback: types.CallbackQuery):
     await callback.message.edit_text(text, reply_markup=admin_actions_inline, parse_mode="Markdown")
     await callback.answer()
 
-# ========== СБРОС СТАТИСТИКИ ==========
+# ========== СБРОС СТАТИСТИКИ (кнопка) ==========
 @dp.callback_query(lambda c: c.data == "admin_reset_stats")
 async def admin_reset_stats_callback(callback: types.CallbackQuery):
     if callback.from_user.id not in ADMIN_IDS:
@@ -238,6 +238,24 @@ async def cancel_mailing(message: types.Message, state: FSMContext):
     await state.clear()
     await message.answer("❌ Рассылка отменена.")
 
+# ========== КОМАНДА СБРОСА СТАТИСТИКИ (отдельная команда) ==========
+@dp.message(Command("resetstats"))
+async def reset_stats_command(message: types.Message):
+    if message.from_user.id not in ADMIN_IDS:
+        await message.answer("🚫 У вас нет доступа")
+        return
+    
+    stats = load_stats()
+    stats["total"] = {
+        "started": 0, "step_1": 0, "step_city": 0, "step_hours": 0,
+        "step_place": 0, "step_load": 0, "step_accuracy": 0,
+        "got_hr_contact": 0, "refused": 0, "asked_question": 0
+    }
+    save_stats(stats)
+    
+    await message.answer("✅ **Статистика успешно сброшена!**\n\nВсе счётчики обнулены.", parse_mode="Markdown")
+
+# ========== ОТВЕТ КУРАТОРА ==========
 @dp.message(Command("answer"))
 async def admin_answer(message: types.Message):
     if message.from_user.id not in ADMIN_IDS:
