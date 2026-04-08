@@ -10,26 +10,12 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton
-from aiogram.client.session.aiohttp import AiohttpSession
 from config import BOT_TOKEN
-from urllib.parse import quote
 
 logging.basicConfig(level=logging.INFO)
 
-# ========== ПРОКСИ ==========
-proxy_user = "rhjocpnxkw-res-country-NL-state-2749879-city-2759794-hold-session-session-69ce5ac50a723"
-proxy_pass = "VhtmedPLxaWEkZMI"
-proxy_host = "212.8.249.134"
-proxy_port = 443
-
-encoded_user = quote(proxy_user, safe='')
-encoded_pass = quote(proxy_pass, safe='')
-PROXY_URL = f"socks5://{encoded_user}:{encoded_pass}@{proxy_host}:{proxy_port}"
-
-session = AiohttpSession(proxy=PROXY_URL)
-bot = Bot(token=BOT_TOKEN, session=session)
+bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
-# ============================
 
 # ========== АДМИНИСТРАТОРЫ ==========
 ADMIN_IDS = [1291472367]  # Добавь сюда ID админов через запятую
