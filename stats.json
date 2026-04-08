@@ -1,0 +1,276 @@
+{
+  "users": {
+    "7373443121": {
+      "first_seen": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "events": [
+        {
+          "time": "2026-04-08 19:32:08",
+          "event": "started",
+          "info": "w0rkplace_support"
+        },
+        {
+          "time": "2026-04-08 19:32:53",
+          "event": "step_1",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 19:33:37",
+          "event": "step_city",
+          "info": "ввав"
+        },
+        {
+          "time": "2026-04-08 19:33:47",
+          "event": "step_hours",
+          "info": "ооларап"
+        },
+        {
+          "time": "2026-04-08 19:33:58",
+          "event": "step_place",
+          "info": "есть место"
+        },
+        {
+          "time": "2026-04-08 19:34:00",
+          "event": "step_load",
+          "info": "устраивает"
+        },
+        {
+          "time": "2026-04-08 19:34:02",
+          "event": "step_accuracy",
+          "info": "аккуратный"
+        },
+        {
+          "time": "2026-04-08 19:34:05",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 19:34:09",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 19:34:55",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 19:35:00",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 19:35:42",
+          "event": "asked_question",
+          "info": ""
+        }
+      ],
+      "user_info": "w0rkplace_support"
+    },
+    "1941196004": {
+      "first_seen": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "events": [
+        {
+          "time": "2026-04-08 19:36:50",
+          "event": "started",
+          "info": "JERR_43"
+        },
+        {
+          "time": "2026-04-08 20:08:27",
+          "event": "started",
+          "info": "JERR_43"
+        },
+        {
+          "time": "2026-04-08 20:08:29",
+          "event": "step_1",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 20:08:33",
+          "event": "step_city",
+          "info": "Did"
+        },
+        {
+          "time": "2026-04-08 20:08:34",
+          "event": "step_hours",
+          "info": "Jdjsk"
+        },
+        {
+          "time": "2026-04-08 20:08:37",
+          "event": "step_place",
+          "info": "есть место"
+        },
+        {
+          "time": "2026-04-08 20:09:37",
+          "event": "step_load",
+          "info": "устраивает"
+        },
+        {
+          "time": "2026-04-08 20:09:42",
+          "event": "step_accuracy",
+          "info": "аккуратный"
+        },
+        {
+          "time": "2026-04-08 20:09:46",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 20:09:49",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 20:10:10",
+          "event": "got_hr_contact",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 20:26:33",
+          "event": "started",
+          "info": "JERR_43"
+        },
+        {
+          "time": "2026-04-08 20:26:34",
+          "event": "step_1",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 20:26:43",
+          "event": "step_city",
+          "info": "Хуй"
+        },
+        {
+          "time": "2026-04-08 20:26:44",
+          "event": "step_hours",
+          "info": "Хуй"
+        },
+        {
+          "time": "2026-04-08 20:26:47",
+          "event": "step_place",
+          "info": "есть место"
+        },
+        {
+          "time": "2026-04-08 20:26:48",
+          "event": "step_load",
+          "info": "устраивает"
+        },
+        {
+          "time": "2026-04-08 20:26:50",
+          "event": "step_accuracy",
+          "info": "аккуратный"
+        },
+        {
+          "time": "2026-04-08 20:26:52",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 20:26:54",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 20:27:13",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 20:27:17",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 20:27:35",
+          "event": "got_hr_contact",
+          "info": ""
+        }
+      ],
+      "user_info": "JERR_43"
+    },
+    "8221296193": {
+      "first_seen": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "events": [
+        {
+          "time": "2026-04-08 19:47:35",
+          "event": "started",
+          "info": "AlexGroup43"
+        },
+        {
+          "time": "2026-04-08 19:47:36",
+          "event": "step_1",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 19:47:40",
+          "event": "step_city",
+          "info": "Влада"
+        },
+        {
+          "time": "2026-04-08 19:47:41",
+          "event": "step_hours",
+          "info": "Дадад"
+        },
+        {
+          "time": "2026-04-08 19:47:43",
+          "event": "step_place",
+          "info": "есть место"
+        },
+        {
+          "time": "2026-04-08 19:47:44",
+          "event": "step_load",
+          "info": "устраивает"
+        },
+        {
+          "time": "2026-04-08 19:47:45",
+          "event": "step_accuracy",
+          "info": "аккуратный"
+        },
+        {
+          "time": "2026-04-08 19:47:47",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 19:47:50",
+          "event": "asked_question",
+          "info": ""
+        },
+        {
+          "time": "2026-04-08 19:48:19",
+          "event": "got_hr_contact",
+          "info": ""
+        }
+      ],
+      "user_info": "AlexGroup43"
+    }
+  },
+  "total": {
+    "started": 5,
+    "step_1": 4,
+    "step_city": 4,
+    "step_hours": 4,
+    "step_place": 4,
+    "step_load": 4,
+    "step_accuracy": 4,
+    "got_hr_contact": 3,
+    "refused": 0,
+    "asked_question": 13
+  },
+  "daily": {
+    "2026-04-08": {
+      "started": 5,
+      "step_1": 4,
+      "step_city": 4,
+      "step_hours": 4,
+      "step_place": 4,
+      "step_load": 4,
+      "step_accuracy": 4,
+      "got_hr_contact": 3,
+      "refused": 0,
+      "asked_question": 13
+    }
+  }
+}
